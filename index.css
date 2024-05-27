@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #1B1924;
+    font-family: 'Inter', sans-serif;
+}
+
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 1px #FDFEFF, 0 0 2px #FDFEFF, 0 0 3px #FDFEFF, 0 0 4px #FDFEFF, 0 0 5px #FDFEFF, 0 0 5px #FDFEFF;
+    }
+}
+
+.container {
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 390px;
+    margin: 30px auto;
+    border: none;
+    padding: 20px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#h1-glow {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 29px;
+    line-height: 25px;
+    color: #F43F5E;
+    font-weight: 700;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+#text-field {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8F8F8F;
+    background-color: #444059;
+    resize: none;
+    width: 282px;
+    height: 118px;
+    border: none;
+    padding: 17.5px;
+    border-radius: 8px;
+    line-height: 18.15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 8px black;
+}
+
+button {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #F43F5E;
+    color: #04131C;
+    box-shadow: 0px 8px 8px black;
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #FECDD3;
+	transition: background-color 0.5s;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5px;
+    padding: 5px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 317px;
+    height: 129px;
+    list-style-type: none;
+    padding-left: 40px;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+ul li {
+    background-color: #FFFFFF;
+    color: #1B1924;
+    font-size: 14px;
+    padding: 15px;
+    text-align: left;
+    word-wrap: break-word
+}
+
+ul li:hover {
+    cursor: pointer;
+    background-color: #FECDD3;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);    
+}
